@@ -1,0 +1,33 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1 {
+    color: transparent;
+    background: linear-gradient(rgba(51, 168, 219, 1),rgba(20, 114, 183, 1));
+    background-attachment: local;
+}
+
+h2 {
+    color: rgba(51, 168, 219, 1)
+}
+
+.banner {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6),rgba(49, 128, 221, 0.2),rgba(0,0,0,0.6)),
+    url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+    padding-top: 60px;
+    border-bottom: 1px solid rgba(51, 168, 219, 1)
+}
+
+.banner-content
