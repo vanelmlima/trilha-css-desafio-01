@@ -1,33 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
     background-color: black;
     text-align: center;
-    color: aliceblue;
 }
 
-h1 {
-    color: transparent;
-    background: linear-gradient(rgba(51, 168, 219, 1),rgba(20, 114, 183, 1));
-    background-attachment: local;
+p {
+    color: white;
 }
 
 h2 {
-    color: rgba(51, 168, 219, 1)
+    color: rgba(51, 168, 219, 1);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+section {
+    margin: 100px auto;
 }
 
 .banner {
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.6),rgba(49, 128, 221, 0.2),rgba(0,0,0,0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.6),rgba(49, 168, 221, 0.2),rgba(0,0,0,0.6)),
     url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: 100vw;
-    padding-top: 60px;
+    height: 605px;
+    padding-top: 56px;
     border-bottom: 1px solid rgba(51, 168, 219, 1)
 }
 
-.banner-content
+.banner-content {
+    margin: auto;
+    width: 600px;
+}
+
+.logo {
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.logo img {
+    margin: auto;
+}
+
+.banner-content h1 {
+    color: transparent;
+    background: -webkit-linear-gradient(rgb(51, 168, 219),rgba(20, 114, 183));
+    background-clip: text;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.banner-content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 16px 0 24px;
+}
+
+.banner-content button {
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    color: transparent;
+    background: rgba(51, 168, 219, 1);
+    background-clip: text;
+    text-transform: uppercase;
+    border: solid 2px;
+    border-image: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1));
+    border-image-slice: 1;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+#course-content p {
+    padding: 4px;
+}
+
+.modules-list{
+    margin: 1.5rem 0;
+    color: aliceblue;
+}
+
+.module{
+    width: 535px;
+    margin: 0 auto 2rem;
+}
